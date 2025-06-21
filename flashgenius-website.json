@@ -1,5 +1,0 @@
-{
-  "README.md": "# FlashGenius Standalone Website\n\nThis is your FlashGenius website ready for deployment!\n\n## Steps:\n1. Extract files\n2. Run: npm install\n3. Run: npm start\n4. Deploy to Vercel",
-  "package.json": "{\n  \"name\": \"flashgenius-standalone\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"react\": \"^18.2.0\",\n    \"react-dom\": \"^18.2.0\",\n    \"react-router-dom\": \"^6.8.0\",\n    \"react-scripts\": \"5.0.1\",\n    \"lucide-react\": \"^0.263.1\",\n    \"framer-motion\": \"^10.16.4\",\n    \"tailwindcss\": \"^3.3.3\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\"\n  }\n}",
-  "vercel.json": "{\n  \"rewrites\": [\n    {\n      \"source\": \"/(.*)\",\n      \"destination\": \"/index.html\"\n    }\n  ]\n}"
-}
